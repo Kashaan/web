@@ -1,0 +1,67 @@
+#wrap {
+width:1200px;
+margin:0px auto;
+}
+
+header {
+border:dashed 1px #999;
+}
+
+#leftnavi {
+float:left;
+width:148px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 0px 0px 0px;
+}
+
+#contents {
+float:left;
+width:638px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 10px 10px 10px;
+}
+
+
+a {
+font-weight:bold;
+text-decoration:none;
+}
+
+a:link {
+color:#0000FF;
+}
+
+a:visited {
+color:#6600FF;
+}
+
+a:hover {
+color:#FF0099;
+text-decoration:underline;
+}
+
+a:active {
+color:#33CC00;
+}
+p:first-line {
+color:#F00; 　←　赤色
+}
+
+#lightnavi {
+float:left;
+width:148px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+clear:both;
+border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
